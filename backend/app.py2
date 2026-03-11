@@ -1,0 +1,36 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+last_data = {}
+
+@app.route('/')
+def home():
+    if last_data:
+        return jsonify({
+            "status": "Flask backend running",
+            "last_submitted_data": last_data
+        })
+    return jsonify({
+        "status": "Flask backend running",
+        "message": "No data submitted yet"
+    })
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    global last_data
+
+    data = request.get_json()  # 👈 FIX HERE
+
+    last_data = {
+        "name": data.get('name'),
+        "email": data.get('email')
+    }
+
+    return jsonify({
+        "message": "Form received successfully",
+        "data": last_data
+    })
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
