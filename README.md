@@ -88,19 +88,19 @@ Backend Image: yourdockerhub/flask-backend
 
 #### 📸 **Screenshots Section**
 
-![Folder structure](Screenshots/1-project-structure.png)
+![Folder structure](creenshots/1-project-structure.png)
 
-![Browser showing form](Screenshots/2-frontend-ui.png)
+![Browser showing form](screenshots/2-frontend-ui.png)
 
-![Filled form ](Screenshots/3-form-submission.png)
+![Filled form ](screenshots/3-form-submission.png)
 
-![JSON response](Screenshots/4-backend-response.png)
+![JSON response](screenshots/4-backend-response.png)
 
-![docker compose up` running](Screenshots/5-docker-compose.png)
+![docker compose up` running](screenshots/5-docker-compose.png)
 
-![docker ps` output](Screenshots/6-containers-running.png)
+![docker ps` output](screenshots/6-containers-running.png)
 
-```md
+
 
 Docker Hub Images:
 - https://hub.docker.com/r/shakirp/flask-backend
