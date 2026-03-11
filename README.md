@@ -86,25 +86,22 @@ Backend Image: yourdockerhub/flask-backend
 
 ---
 
-## 2️⃣ **Screenshots Section (VERY IMPORTANT FOR MARKS)**
+#### 📸 **Screenshots Section**
 
-Create a folder:
-screenshots/
+![Folder structure](Screenshots/1-project-structure.png)
 
-Take and add these screenshots:
+![Browser showing form](Screenshots/2-frontend-ui.png)
 
-| Screenshot Name | What to Capture |
-|-----------------|-----------------|
-| `1-project-structure.png` | Folder structure |
-| `2-frontend-ui.png` | Browser showing form |
-| `3-form-submission.png` | Filled form |
-| `4-backend-response.png` | JSON response |
-| `5-docker-compose.png` | `docker compose up` running |
-| `6-containers-running.png` | `docker ps` output |
+![Filled form ](Screenshots/3-form-submission.png)
 
-Add this section at the bottom of `README.md`:
+![JSON response](Screenshots/4-backend-response.png)
+
+![docker compose up` running](Screenshots/5-docker-compose.png)
+
+![docker ps` output](Screenshots/6-containers-running.png)
 
 ```md
-## 📸 Screenshots
-Screenshots of project execution are available in the `screenshots/` folder.
-:wq
+
+Docker Hub Images:
+- https://hub.docker.com/r/shakirp/flask-backend
+- https://hub.docker.com/r/shakirp/node-frontend
