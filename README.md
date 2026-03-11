@@ -86,19 +86,33 @@ Backend Image: yourdockerhub/flask-backend
 
 ---
 
-#### 📸 **Screenshots Section**
+#### 📸Screenshots Section
 
-![Folder structure](creenshots/1-project-structure.png)
+## Screenshots
 
-![Browser showing form](screenshots/2-frontend-ui.png)
+**1. Project Folder Structure**
 
-![Filled form ](screenshots/3-form-submission.png)
+![Project Folder Structure](screenshots/1-project-structure.png)
 
-![JSON response](screenshots/4-backend-response.png)
+**2. Frontend User Interface**
 
-![docker compose up` running](screenshots/5-docker-compose.png)
+![Frontend UI](screenshots/2-frontend-ui.png)
 
-![docker ps` output](screenshots/6-containers-running.png)
+**3. Form Submission**
+
+![Filled Form](screenshots/3-form-submission.png)
+
+**4. Backend JSON Response**
+
+![Backend Response](screenshots/4-backend-response.png)
+
+**5. Docker Compose Running**
+
+![Docker Compose](screenshots/5-docker-compose.png)
+
+**6. Running Containers**
+
+![Docker Containers](screenshots/6-containers-running.png)
 
 
 
